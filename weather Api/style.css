@@ -1,0 +1,34 @@
+body{
+    background-image: url(weather.png);
+    justify-content: center;
+    
+}
+#inputCity {
+justify-content: center;
+margin-top: 30%;
+
+}
+.box{
+    width:100px;
+    height: 100px;
+    
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color:white;
+
+}
+#city{
+    background-color: rgb(43, 141, 131);
+}
+#temp{
+  
+    background-color: rgb(31, 122, 192);
+}
+#humidity{
+    background-color: rgb(63, 94, 118);
+}
+#wind{
+    background-color: rgb(41, 52, 61);
+}
