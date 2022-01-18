@@ -1,23 +1,31 @@
-body{
-    background-image: url(weather.png);
-    justify-content: center;
+*{
+    margin: 0%;
+    padding: 0%;
+    }
     
-}
-#inputCity {
-justify-content: center;
-margin-top: 30%;
+    body {
+     background-image: url(weather.png);
+    justify-content: center;
+    text-align: center;
+    
+    }
+ 
+    ::placeholder{
+        text-align: center;
+        
+    }
+    
+#button {
+      background-color:#0dcaf0;
 
 }
 .box{
     width:100px;
-    height: 100px;
-    
-    
+    height: 100px;    
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
     color:white;
-
 }
 #city{
     background-color: rgb(43, 141, 131);
